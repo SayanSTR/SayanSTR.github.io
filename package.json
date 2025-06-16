@@ -9,13 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hooks": "latest",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scroll": "^1.9.0",
-    "hooks": "latest"
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-scroll": "^1.8.10",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   }

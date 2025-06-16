@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Skills } from './components/Skills';
-import { Projects } from './components/Projects';
-import { Experience } from './components/Experience';
-import { Education } from './components/Education';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-import { ArrowUpIcon } from './constants'; 
+import { Hero } from './components/Hero.js'; // Added .js
+import { About } from './components/About.js'; // Added .js
+import { Skills } from './components/Skills.js'; // Added .js
+import { Projects } from './components/Projects.js'; // Added .js
+import { Experience } from './components/Experience.js'; // Added .js
+import { Education } from './components/Education.js'; // Added .js
+import { Contact } from './components/Contact.js'; // Added .js
+import { Footer } from './components/Footer.js'; // Added .js
+import { Header } from './components/Header.js'; // Added .js
+import { ArrowUpIcon } from './constants.js'; // Added .js
 
 const App: React.FC = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);

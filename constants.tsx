@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SocialLink, Skill, Project, ExperienceItem, EducationItem, NavLink } from './types';
+import { SocialLink, Skill, Project, ExperienceItem, EducationItem, NavLink } from './types.js'; // Added .js
 
 // SVG Icons (Heroicons style)
 export const GitHubIcon: React.FC<{className?: string}> = ({ className }) => (

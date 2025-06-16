@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { Card } from './Card';
-import { EXPERIENCE_DATA, BriefcaseIcon } from '../constants';
-import { ExperienceItem } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { Card } from './Card.js'; // Added .js
+import { EXPERIENCE_DATA, BriefcaseIcon } from '../constants.js'; // Added .js
+import { ExperienceItem } from '../types.js'; // Added .js
 
 interface ExperienceProps {
   className?: string;

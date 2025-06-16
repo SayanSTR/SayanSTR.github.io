@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { Card } from './Card';
-import { PROJECTS_DATA, GitHubIcon } from '../constants';
-import { Project } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { Card } from './Card.js'; // Added .js
+import { PROJECTS_DATA, GitHubIcon } from '../constants.js'; // Added .js
+import { Project } from '../types.js'; // Added .js
 
 const ExternalLinkIcon: React.FC<{className?: string}> = ({className}) => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className || "w-5 h-5 ml-1"}>

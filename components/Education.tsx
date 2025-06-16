@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { Card } from './Card';
-import { EDUCATION_DATA, AcademicCapIcon } from '../constants';
-import { EducationItem } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { Card } from './Card.js'; // Added .js
+import { EDUCATION_DATA, AcademicCapIcon } from '../constants.js'; // Added .js
+import { EducationItem } from '../types.js'; // Added .js
 
 interface EducationProps {
   className?: string;

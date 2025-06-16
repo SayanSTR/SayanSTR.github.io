@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { NAV_LINKS, YOUR_NAME } from '../constants'; 
+import { NAV_LINKS, YOUR_NAME } from '../constants.js'; // Added .js
 // import { NavLink } from '../types'; // NAV_LINKS has its own type from constants
 import { Link as ScrollLink, animateScroll } from 'react-scroll';
 

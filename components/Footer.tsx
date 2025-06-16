@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { YOUR_NAME } from '../constants';
+import { YOUR_NAME } from '../constants.js'; // Added .js
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();

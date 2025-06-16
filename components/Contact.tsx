@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { Card } from './Card';
-import { SOCIAL_LINKS, CONTACT_EMAIL, CONTACT_MESSAGE, EmailIcon } from '../constants';
-import { SocialLink } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { Card } from './Card.js'; // Added .js
+import { SOCIAL_LINKS, CONTACT_EMAIL, CONTACT_MESSAGE, EmailIcon } from '../constants.js'; // Added .js
+import { SocialLink } from '../types.js'; // Added .js
 
 interface ContactProps {
   className?: string;

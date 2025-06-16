@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { SOCIAL_LINKS, YOUR_NAME, YOUR_TITLE, YOUR_BIO_SHORT } from '../constants';
-import { SocialLink } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { SOCIAL_LINKS, YOUR_NAME, YOUR_TITLE, YOUR_BIO_SHORT } from '../constants.js'; // Added .js
+import { SocialLink } from '../types.js'; // Added .js
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -11,12 +11,9 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ className: bgClassNameFromApp }) => {
-  // Combine the specific Hero styling with the background class from App.tsx
-  const combinedClassName = `min-h-screen flex items-center justify-center !py-0 bg-cover bg-center ${bgClassNameFromApp}`;
-
+  
   const heroSectionStyle: React.CSSProperties = {
     // Adding a subtle texture for the hero section, different from the main body pattern
-    // This could also be a class if preferred
     backgroundImage: `radial-gradient(circle, rgba(200,200,220,0.03) 1px, transparent 1px),
                         radial-gradient(circle, rgba(200,200,220,0.03) 1px, transparent 1px)`,
     backgroundSize: '30px 30px',
@@ -26,8 +23,9 @@ export const Hero: React.FC<HeroProps> = ({ className: bgClassNameFromApp }) => 
   return (
     <SectionWrapper 
       id="hero" 
-      className={combinedClassName} // Pass combined classes
+      className={bgClassNameFromApp} // Pass only the background class from App.tsx
       style={heroSectionStyle}
+      noInternalPadding={true} // Hero section manages its content alignment without SectionWrapper's default padding
     >
       <div className="text-center p-6 bg-slate-50/70 backdrop-blur-lg rounded-xl shadow-2xl max-w-3xl mx-auto">
         <img

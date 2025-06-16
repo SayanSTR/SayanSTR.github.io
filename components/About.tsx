@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { YOUR_ABOUT_ME, YOUR_NAME } from '../constants'; // YOUR_NAME for replacement
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { YOUR_ABOUT_ME, YOUR_NAME } from '../constants.js'; // Added .js
 
 interface AboutProps {
   className?: string;

@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { SectionWrapper } from './SectionWrapper';
-import { Card } from './Card';
-import { SKILLS_DATA, CodeBracketIcon } from '../constants';
-import { Skill } from '../types';
+import { SectionWrapper } from './SectionWrapper.js'; // Added .js
+import { Card } from './Card.js'; // Added .js
+import { SKILLS_DATA, CodeBracketIcon } from '../constants.js'; // Added .js
+import { Skill } from '../types.js'; // Added .js
 
 interface SkillsProps {
   className?: string;

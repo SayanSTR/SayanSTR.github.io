@@ -9,9 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth; /* For smoother react-scroll and anchor link navigation */
+    }
     body {
       font-family: 'Inter', sans-serif;
-      scroll-behavior: smooth; /* Fallback for browsers not supporting react-scroll well */
+      /* scroll-behavior: smooth; */ /* Moved to html for scroll-snap compatibility */
       background-color: #f8fafc; /* slate-50 as a base */
       /* Subtle pattern inspired by "posh but minimalistic room" */
       background-image: linear-gradient(45deg, #e2e8f0 25%, transparent 25%), 
@@ -54,14 +58,13 @@
     "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
     "react-scroll": "https://esm.sh/react-scroll@^1.9.0",
     "react-scroll/": "https://esm.sh/react-scroll@^1.9.0/",
-    "hooks/": "/hooks/"
+    "hooks/": "./hooks/"
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
-<body> {/* Removed bg-slate-100, handled by style tag */}
+<body> <!-- HTML Comment: Removed bg-slate-100, handled by style tag -->
   <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+  <script type="module" src="./index.js"></script>
 </body>
 </html>

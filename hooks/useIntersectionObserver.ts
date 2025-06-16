@@ -8,7 +8,7 @@ interface IntersectionObserverOptions {
 }
 
 function useIntersectionObserver(
-  elementRef: RefObject<Element>,
+  elementRef: RefObject<HTMLElement | null>, // Changed Element to HTMLElement | null
   {
     threshold = 0.1, // Default to 10% visibility
     root = null,
@@ -20,7 +20,13 @@ function useIntersectionObserver(
 
   useEffect(() => {
     const element = elementRef.current;
-    if (!element) return;
+    if (!element) {
+        // If the element is not yet available, we can't observe it.
+        // Depending on desired behavior, you might want to ensure isIntersecting remains false
+        // or handle this case in a way that doesn't lead to premature state changes.
+        // For now, if element is null, isIntersecting will remain its current value (initially false).
+        return;
+    }
 
     const observer = new IntersectionObserver(
       ([entry]) => {
