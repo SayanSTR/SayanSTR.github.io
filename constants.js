@@ -22,7 +22,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
     { name: "GitHub", url: "https://github.com/SayanSTR", icon: _jsx(GitHubIcon, {}) },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/sayan-ghosh-4a0a0a156/", icon: _jsx(LinkedInIcon, {}) },
-    { name: "Email", url: "mailto:your.email@example.com", icon: _jsx(EmailIcon, {}) }, // PLEASE UPDATE THIS EMAIL
+    { name: "Email", url: "mailto:sayanofc@gmail.com", icon: _jsx(EmailIcon, {}) }, // PLEASE UPDATE THIS EMAIL
 ];
 const SKILL_ICON_CLASS = "w-5 h-5 text-sky-600";
 export const SKILLS_DATA = [
@@ -38,6 +38,7 @@ export const SKILLS_DATA = [
     { name: "Node.js", category: "Frontend & Learning", icon: _jsx(ServerStackIcon, { className: SKILL_ICON_CLASS }) },
     { name: "Tailwind CSS", category: "Frontend & Learning", icon: _jsx(CodeBracketIcon, { className: SKILL_ICON_CLASS }) },
     { name: "SQL (PostgreSQL, MySQL)", category: "Databases", icon: _jsx(DatabaseIcon, { className: SKILL_ICON_CLASS }) },
+    { name: "NoSQL (MongoDB)", category: "Databases", icon: _jsx(DatabaseIcon, { className: SKILL_ICON_CLASS }) },
     { name: "AWS (Basic)", category: "Cloud & DevOps", icon: _jsx(CloudIcon, { className: SKILL_ICON_CLASS }) },
     { name: "Docker", category: "Cloud & DevOps", icon: _jsx(CloudIcon, { className: SKILL_ICON_CLASS }) },
     { name: "Git & GitHub", category: "Tools", icon: _jsx(GitHubIcon, { className: SKILL_ICON_CLASS }) },
@@ -76,9 +77,9 @@ export const EXPERIENCE_DATA = [
     {
         id: "exp1",
         role: "Java Developer / Software Engineer",
-        company: "Your Previous Company",
-        period: "Month Year - Month Year",
-        logoUrl: "https://picsum.photos/seed/company1logo/40/40",
+        company: "Monocept",
+        period: "Feb 2022 - Current",
+        logoUrl: "https://monocept.com/wp-content/uploads/2020/09/monocept-logo-orange.png",
         responsibilities: [
             "Developed and maintained backend services using Java and Spring Boot.",
             "Contributed to API design and implementation.",
@@ -103,10 +104,10 @@ export const EXPERIENCE_DATA = [
 export const EDUCATION_DATA = [
     {
         id: "edu1",
-        degree: "Your Degree (e.g., B.Tech in Computer Science)",
-        institution: "Your University/College Name",
-        period: "Year - Year",
-        description: "Relevant coursework, thesis, or academic achievements. (e.g., Specialization in Software Engineering)."
+        degree: "B.Tech",
+        institution: "Dr. B. C. Roy Engineering College",
+        period: "2017 - 2020",
+        description: "GeoTech Engineering, Data Analysis, MATLAB"
     },
     {
         id: "edu2",
@@ -115,6 +116,13 @@ export const EDUCATION_DATA = [
         period: "Year - Present/Year",
         description: "Currently learning full-stack web development, focusing on React, Node.js, etc."
     },
+    {
+        id: "edu2",
+        degree: "Online Course/Certification (e.g., Fullstackopen)",
+        institution: "Course Provider (e.g., University of Helsinki)",
+        period: "Year - Present/Year",
+        description: "Currently learning full-stack web development, focusing on React, Node.js, etc."
+    }
 ];
 export const YOUR_NAME = "Sayan Ghosh";
 export const YOUR_TITLE = "Java Developer | Spring Boot Expert | Full Stack Enthusiast";
@@ -124,5 +132,5 @@ export const YOUR_ABOUT_ME = [
     "With a solid foundation in backend development, I am currently broadening my horizons by diving into the world of full-stack development through the comprehensive Fullstackopen course. I'm actively learning React, Node.js, Tailwind CSS, and best practices for modern web application deployment, including AWS and Docker.",
     "I'm excited to integrate my backend strengths with new frontend skills to create complete and impactful digital solutions. I'm always open to discussing new challenges, collaborative projects, or opportunities where I can contribute and grow."
 ];
-export const CONTACT_EMAIL = "your.email@example.com"; // PLEASE UPDATE THIS EMAIL
+export const CONTACT_EMAIL = "sayanofc@gmail.com"; // PLEASE UPDATE THIS EMAIL
 export const CONTACT_MESSAGE = "I'm always open to discussing new projects, creative ideas, or opportunities to be part of something exciting. Feel free to reach out!";
