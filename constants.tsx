@@ -77,7 +77,7 @@ export const NAV_LINKS: NavLink[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: "GitHub", url: "https://github.com/SayanSTR", icon: <GitHubIcon /> },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/sayan-ghosh-4a0a0a156/", icon: <LinkedInIcon /> },
-  { name: "Email", url: "mailto:your.email@example.com", icon: <EmailIcon /> }, // PLEASE UPDATE THIS EMAIL
+  { name: "Email", url: "mailto:sayanofc@gmail.com", icon: <EmailIcon /> }, // PLEASE UPDATE THIS EMAIL
 ];
 
 const SKILL_ICON_CLASS = "w-5 h-5 text-sky-600";
@@ -97,6 +97,7 @@ export const SKILLS_DATA: Skill[] = [
   { name: "Tailwind CSS", category: "Frontend & Learning", icon: <CodeBracketIcon className={SKILL_ICON_CLASS}/> },
   
   { name: "SQL (PostgreSQL, MySQL)", category: "Databases", icon: <DatabaseIcon className={SKILL_ICON_CLASS}/> },
+  { name: "NoSQL (MongoDB)", category: "Databases", icon: <DatabaseIcon className={SKILL_ICON_CLASS}/> },
   
   { name: "AWS (Basic)", category: "Cloud & DevOps", icon: <CloudIcon className={SKILL_ICON_CLASS}/> },
   { name: "Docker", category: "Cloud & DevOps", icon: <CloudIcon className={SKILL_ICON_CLASS}/> },
@@ -138,9 +139,9 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     id: "exp1",
     role: "Java Developer / Software Engineer",
-    company: "Your Previous Company",
+    company: "Monocept",
     period: "Month Year - Month Year",
-    logoUrl: "https://picsum.photos/seed/company1logo/40/40",
+    logoUrl: "https://monocept.com/wp-content/uploads/2020/09/monocept-logo-orange.png",
     responsibilities: [
       "Developed and maintained backend services using Java and Spring Boot.",
       "Contributed to API design and implementation.",
@@ -166,10 +167,10 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 export const EDUCATION_DATA: EducationItem[] = [
   {
     id: "edu1",
-    degree: "Your Degree (e.g., B.Tech in Computer Science)",
-    institution: "Your University/College Name",
-    period: "Year - Year",
-    description: "Relevant coursework, thesis, or academic achievements. (e.g., Specialization in Software Engineering)."
+    degree: "B.Tech",
+    institution: "Dr. B. C. Roy Engineering College",
+    period: "2017 - 2020",
+    description: "GeoTech Engineering, Data Analysis, MATLAB"
   },
   {
     id: "edu2",
@@ -188,5 +189,5 @@ export const YOUR_ABOUT_ME = [
   "With a solid foundation in backend development, I am currently broadening my horizons by diving into the world of full-stack development through the comprehensive Fullstackopen course. I'm actively learning React, Node.js, Tailwind CSS, and best practices for modern web application deployment, including AWS and Docker.",
   "I'm excited to integrate my backend strengths with new frontend skills to create complete and impactful digital solutions. I'm always open to discussing new challenges, collaborative projects, or opportunities where I can contribute and grow."
 ];
-export const CONTACT_EMAIL = "your.email@example.com"; // PLEASE UPDATE THIS EMAIL
+export const CONTACT_EMAIL = "sayanofc@gmail.com"; // PLEASE UPDATE THIS EMAIL
 export const CONTACT_MESSAGE = "I'm always open to discussing new projects, creative ideas, or opportunities to be part of something exciting. Feel free to reach out!";
