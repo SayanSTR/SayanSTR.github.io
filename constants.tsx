@@ -116,22 +116,22 @@ export const PROJECTS_DATA: Project[] = [
     repoUrl: "https://github.com/SayanSTR/your-microservice-project", // Update link
     liveUrl: "#", // Update if applicable
   },
-  {
-    id: "project2",
-    title: "Full Stack Task Manager (Fullstackopen)",
-    description: "A task management application built while learning full-stack development (e.g., MERN stack). Showcases CRUD, user auth, and responsive UI. Based on Fullstackopen. Replace/detail with your project.",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
-    imageUrl: "https://picsum.photos/seed/projectFS1/400/250",
-    repoUrl: "https://github.com/SayanSTR/your-fullstackopen-project", // Update link
-  },
-  {
-    id: "project3",
-    title: "Cloud-Native Application Deployment (Example)",
-    description: "Demonstrates deploying a Spring Boot application to AWS using services like EC2/ECS, with CI/CD pipeline integration. Replace with your actual project details if applicable.",
-    technologies: ["Java", "Spring Boot", "AWS (EC2, S3, RDS)", "Docker", "Jenkins/GitHub Actions"],
-    imageUrl: "https://picsum.photos/seed/projectCloud1/400/250",
-    liveUrl: "#", // Update if applicable
-  },
+  // {
+  //   id: "project2",
+  //   title: "Full Stack Task Manager (Fullstackopen)",
+  //   description: "A task management application built while learning full-stack development (e.g., MERN stack). Showcases CRUD, user auth, and responsive UI. Based on Fullstackopen. Replace/detail with your project.",
+  //   technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+  //   imageUrl: "https://picsum.photos/seed/projectFS1/400/250",
+  //   repoUrl: "https://github.com/SayanSTR/your-fullstackopen-project", // Update link
+  // },
+  // {
+  //   id: "project3",
+  //   title: "Cloud-Native Application Deployment (Example)",
+  //   description: "Demonstrates deploying a Spring Boot application to AWS using services like EC2/ECS, with CI/CD pipeline integration. Replace with your actual project details if applicable.",
+  //   technologies: ["Java", "Spring Boot", "AWS (EC2, S3, RDS)", "Docker", "Jenkins/GitHub Actions"],
+  //   imageUrl: "https://picsum.photos/seed/projectCloud1/400/250",
+  //   liveUrl: "#", // Update if applicable
+  // },
 ];
 
 // PLEASE UPDATE YOUR PROFESSIONAL EXPERIENCE
