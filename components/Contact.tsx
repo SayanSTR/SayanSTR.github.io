@@ -35,9 +35,9 @@ export const Contact: React.FC<ContactProps> = ({ className }) => {
             </a>
           ))}
         </div>
-        <p className="text-center mt-8 text-sm text-rose-500">
-          Reminder: Please update <code>CONTACT_EMAIL</code> in <code>constants.tsx</code> with your actual email address.
-        </p>
+        {/* <p className="text-center mt-8 text-sm text-rose-500">
+          Reminder:
+        </p> */}
       </Card>
     </SectionWrapper>
   );

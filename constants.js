@@ -55,22 +55,22 @@ export const PROJECTS_DATA = [
         repoUrl: "https://github.com/SayanSTR/your-microservice-project", // Update link
         liveUrl: "#", // Update if applicable
     },
-    {
-        id: "project2",
-        title: "Full Stack Task Manager (Fullstackopen)",
-        description: "A task management application built while learning full-stack development (e.g., MERN stack). Showcases CRUD, user auth, and responsive UI. Based on Fullstackopen. Replace/detail with your project.",
-        technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
-        imageUrl: "https://picsum.photos/seed/projectFS1/400/250",
-        repoUrl: "https://github.com/SayanSTR/your-fullstackopen-project", // Update link
-    },
-    {
-        id: "project3",
-        title: "Cloud-Native Application Deployment (Example)",
-        description: "Demonstrates deploying a Spring Boot application to AWS using services like EC2/ECS, with CI/CD pipeline integration. Replace with your actual project details if applicable.",
-        technologies: ["Java", "Spring Boot", "AWS (EC2, S3, RDS)", "Docker", "Jenkins/GitHub Actions"],
-        imageUrl: "https://picsum.photos/seed/projectCloud1/400/250",
-        liveUrl: "#", // Update if applicable
-    },
+    // {
+    //   id: "project2",
+    //   title: "Full Stack Task Manager (Fullstackopen)",
+    //   description: "A task management application built while learning full-stack development (e.g., MERN stack). Showcases CRUD, user auth, and responsive UI. Based on Fullstackopen. Replace/detail with your project.",
+    //   technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+    //   imageUrl: "https://picsum.photos/seed/projectFS1/400/250",
+    //   repoUrl: "https://github.com/SayanSTR/your-fullstackopen-project", // Update link
+    // },
+    // {
+    //   id: "project3",
+    //   title: "Cloud-Native Application Deployment (Example)",
+    //   description: "Demonstrates deploying a Spring Boot application to AWS using services like EC2/ECS, with CI/CD pipeline integration. Replace with your actual project details if applicable.",
+    //   technologies: ["Java", "Spring Boot", "AWS (EC2, S3, RDS)", "Docker", "Jenkins/GitHub Actions"],
+    //   imageUrl: "https://picsum.photos/seed/projectCloud1/400/250",
+    //   liveUrl: "#", // Update if applicable
+    // },
 ];
 // PLEASE UPDATE YOUR PROFESSIONAL EXPERIENCE
 export const EXPERIENCE_DATA = [
@@ -78,7 +78,7 @@ export const EXPERIENCE_DATA = [
         id: "exp1",
         role: "Java Developer / Software Engineer",
         company: "Monocept",
-        period: "Feb 2022 - Current",
+        period: "Month Year - Month Year",
         logoUrl: "https://monocept.com/wp-content/uploads/2020/09/monocept-logo-orange.png",
         responsibilities: [
             "Developed and maintained backend services using Java and Spring Boot.",
@@ -116,13 +116,6 @@ export const EDUCATION_DATA = [
         period: "Year - Present/Year",
         description: "Currently learning full-stack web development, focusing on React, Node.js, etc."
     },
-    {
-        id: "edu2",
-        degree: "Online Course/Certification (e.g., Fullstackopen)",
-        institution: "Course Provider (e.g., University of Helsinki)",
-        period: "Year - Present/Year",
-        description: "Currently learning full-stack web development, focusing on React, Node.js, etc."
-    }
 ];
 export const YOUR_NAME = "Sayan Ghosh";
 export const YOUR_TITLE = "Java Developer | Spring Boot Expert | Full Stack Enthusiast";
