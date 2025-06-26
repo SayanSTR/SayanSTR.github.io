@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Hero } from './components/Hero.js'; // Added .js
 import { About } from './components/About.js'; // Added .js
@@ -10,6 +9,7 @@ import { Contact } from './components/Contact.js'; // Added .js
 import { Footer } from './components/Footer.js'; // Added .js
 import { Header } from './components/Header.js'; // Added .js
 import { ArrowUpIcon } from './constants.js'; // Added .js
+import { Certificates } from './components/Certificates.js'; // Added .js
 
 const App: React.FC = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -39,6 +39,7 @@ const App: React.FC = () => {
     'bg-white', // Projects
     'bg-sky-50',  // Experience
     'bg-white', // Education
+    'bg-white', // Certificates
     'bg-sky-50'   // Contact
   ];
 
@@ -53,7 +54,8 @@ const App: React.FC = () => {
         <Projects className={sectionBackgrounds[3]} />
         <Experience className={sectionBackgrounds[4]} />
         <Education className={sectionBackgrounds[5]} />
-        <Contact className={sectionBackgrounds[6]} />
+        <Certificates className={sectionBackgrounds[6]} />
+        <Contact className={sectionBackgrounds[7]} />
       </main>
       <Footer />
       {showScrollTop && (
