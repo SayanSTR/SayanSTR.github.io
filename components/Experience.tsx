@@ -33,7 +33,20 @@ export const Experience: React.FC<ExperienceProps> = ({ className }) => {
 
             <Card className={`w-full md:max-w-md ${index % 2 === 0 ? 'md:ml-auto' : 'md:mr-auto'}`}>
               <div className="flex items-start space-x-4 mb-3">
-                {item.logoUrl && <img src={item.logoUrl} alt={`${item.company} logo`} className="w-10 h-10 rounded-full object-contain bg-white p-1 shadow-sm" />}
+                {item.logoUrl && (
+                  <img
+                    src={item.logoUrl}
+                    alt={`${item.company} logo`}
+                    className="w-10 h-10 rounded-full object-contain bg-white p-1 shadow-sm"
+                    onError={(e) => {
+                      const target = e.currentTarget as HTMLImageElement;
+                      const fallback = `assets/${item.id}_logo.png`;
+                      if (!target.src.endsWith(fallback)) {
+                        target.src = fallback;
+                      }
+                    }}
+                  />
+                )}
                 <div>
                   <h3 className="text-xl font-semibold text-sky-700">{item.role}</h3>
                   <p className="text-md text-purple-500">{item.company}</p>
