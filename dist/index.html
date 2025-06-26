@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayan Ghosh - Developer Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth; /* For smoother react-scroll and anchor link navigation */
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      /* scroll-behavior: smooth; */ /* Moved to html for scroll-snap compatibility */
+      background-color: #f8fafc; /* slate-50 as a base */
+      /* Subtle pattern inspired by "posh but minimalistic room" */
+      background-image: linear-gradient(45deg, #e2e8f0 25%, transparent 25%), 
+                        linear-gradient(-45deg, #e2e8f0 25%, transparent 25%), 
+                        linear-gradient(45deg, transparent 75%, #e2e8f0 75%), 
+                        linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    }
+    /* Custom scrollbar for a more posh look - Light Theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #e5e7eb; /* gray-200 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #10b981; /* emerald-500 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #059669; /* emerald-600 */
+    }
+
+    .section-animate {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+    .section-animate.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-scroll": "https://esm.sh/react-scroll@^1.9.0",
+    "react-scroll/": "https://esm.sh/react-scroll@^1.9.0/",
+    "hooks/": "./hooks/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Bn54Uzdj.js"></script>
+</head>
+<body> <!-- HTML Comment: Removed bg-slate-100, handled by style tag -->
+  <div id="root"></div>
+</body>
+</html>

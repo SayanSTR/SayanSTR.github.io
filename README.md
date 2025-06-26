@@ -14,11 +14,38 @@
 
 ---
 
-<!-- Short Bio -->
-<p align="center">
-  Experienced Java and Spring Boot developer, passionate about building robust backend systems.<br>
-  Currently expanding skills into full-stack development with React, Node.js, and cloud technologies through Fullstackopen.
-</p>
+## 🌟 Features
+
+- Modern, responsive developer portfolio built with React, Vite, and Tailwind CSS
+- Modular sectioned layout: Hero, About, Skills, Projects, Experience, Education, Certificates, Contact
+- Data-driven: All content (skills, projects, experience, etc.) is managed in `constants.js/tsx`
+- Smooth scroll navigation, animated sections, and scroll-to-top button
+- TypeScript and JavaScript support
+- Easy to update and extend with new sections or data
+
+---
+
+## 🏗️ Tech Stack
+
+- **Frontend:** React (JS/TS), Vite, Tailwind CSS
+- **State/Data:** Modular constants files (`constants.js/tsx`)
+- **Other:** React Scroll, modern CSS, responsive design
+
+---
+
+## 📁 Project Structure
+
+```
+├── App.js / App.tsx           # Main app entry (JS/TS)
+├── components/                # All section components (JS/TSX)
+│   ├── Hero, About, Skills, Projects, Experience, Education, Certificates, Contact, Footer, Header, etc.
+├── constants.js / constants.tsx # All data (skills, projects, experience, etc.)
+├── types.js / types.ts        # TypeScript types/interfaces
+├── hooks/                     # Custom hooks (e.g., useIntersectionObserver)
+├── index.js / index.tsx      # ReactDOM entry
+├── index.html                # HTML template, Tailwind, fonts, importmap
+├── package.json, tsconfig.json, vite.config.js/ts
+```
 
 ---
 
@@ -34,17 +61,18 @@ I'm excited to integrate my backend strengths with new frontend skills to create
 
 ## 🛠️ Skills
 
-| Languages & Core | Backend Frameworks | Frontend & Learning | Databases | Cloud & DevOps | Tools & Methodologies |
-|:----------------|:------------------|:--------------------|:---------|:---------------|:---------------------|
-| Java            | Spring Boot       | React               | SQL      | AWS (Basic)     | Git & GitHub         |
-| Python          | Spring Framework  | JavaScript          | NoSQL    | Docker          | Agile Development    |
-|                 | Microservices     | TypeScript          |          |                |                      |
-|                 | RESTful APIs      | Tailwind CSS        |          |                |                      |
-|                 |                  | Node.js             |          |                |                      |
+| Languages & Core         | Backend Frameworks | Frontend & Learning      | Databases                | Cloud & DevOps      | Tools & Methodologies |
+|:------------------------|:------------------|:------------------------|:------------------------|:--------------------|:---------------------|
+| Java, Python            | Spring Boot,      | React, JavaScript,      | SQL (PostgreSQL, MySQL), | AWS (Basic), Docker | Git & GitHub         |
+|                         | Spring Framework, | TypeScript, Node.js,    | NoSQL (MongoDB)          |                    | Agile Development    |
+|                         | Microservices,    | Tailwind CSS            |                         |                    |                     |
+|                         | RESTful APIs      |                         |                         |                    |                     |
 
 ---
 
 ## 🚀 Projects
+
+Projects are managed in `constants.tsx` and rendered dynamically. Example:
 
 ### Spring Boot Microservice Suite (Example)
 A collection of interconnected microservices built with Spring Boot, demonstrating API gateways, service discovery, and resilient communication patterns. (e.g., e-commerce backend).
@@ -53,26 +81,30 @@ A collection of interconnected microservices built with Spring Boot, demonstrati
 
 [GitHub Repo](https://github.com/SayanSTR/your-microservice-project)
 
-<!-- Add more projects as needed -->
+<!-- Add more projects in constants.tsx -->
 
 ---
 
 ## 💼 Experience
 
+Experience entries are managed in `constants.tsx` and rendered dynamically.
+
 **Java Developer / Software Engineer**  
 Monocept  
-<sub>Month Year - Month Year</sub>
+<sub>Feb 2022 - Present</sub>
 - Developed and maintained backend services using Java and Spring Boot.
 - Contributed to API design and implementation.
 - Collaborated with cross-functional teams in an agile environment.
 - Add specific achievements and responsibilities here.
 
-**Junior Developer / Intern**  
-Another Company  
-<sub>Month Year - Month Year</sub>
-- Assisted senior developers in various project tasks.
-- Gained experience with [specific technology/area].
-- Contributed to [specific project/feature].
+**Java Developer**  
+Tuzen Technologies  
+<sub>Nov 2020 - Jan 2022</sub>
+- Worked on the Spring Boot backend for a CRM application focused on EV vehicles, utilizing PostgreSQL for data storage.
+- Implemented and optimized CRUD operations for managing customer data and providing analytics to the CRM dashboard.
+- Developed modules for warehouse management of EV parts and tracking vehicle sales.
+- Collaborated with the team to ensure robust integration between backend services and frontend dashboard.
+- Contributed to improving data consistency and performance in analytics and reporting features.
 
 ---
 
@@ -83,10 +115,16 @@ Dr. B. C. Roy Engineering College
 2017 - 2020  
 GeoTech Engineering, Data Analysis, MATLAB
 
-**Online Course/Certification (e.g., Fullstackopen)**  
-Course Provider (e.g., University of Helsinki)  
+**Fullstackopen (Full Stack Web Development)**  
+University of Helsinki  
 Year - Present/Year  
 Currently learning full-stack web development, focusing on React, Node.js, etc.
+
+---
+
+## 📜 Certificates
+
+- Fullstackopen (Full Stack Web Development), University of Helsinki
 
 ---
 
