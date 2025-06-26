@@ -140,7 +140,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "exp1",
     role: "Java Developer / Software Engineer",
     company: "Monocept",
-    period: "Month Year - Month Year",
+    period: "Feb 2022 - Present",
     logoUrl: "https://monocept.com/wp-content/uploads/2020/09/monocept-logo-orange.png",
     responsibilities: [
       "Developed and maintained backend services using Java and Spring Boot.",
@@ -151,14 +151,16 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   },
   {
     id: "exp2",
-    role: "Junior Developer / Intern",
-    company: "Another Company",
-    period: "Month Year - Month Year",
-    logoUrl: "https://picsum.photos/seed/company2logo/40/40",
+    role: "Java Developer",
+    company: "Tuzen Technologies",
+    period: "Nov 2020 - Jan 2022",
+    logoUrl: "http://tuzeng.com/images/resources/logo.png",
     responsibilities: [
-      "Assisted senior developers in various project tasks.",
-      "Gained experience with [specific technology/area].",
-      "Contributed to [specific project/feature].",
+      "Worked on the Spring Boot backend for a CRM application focused on EV vehicles, utilizing PostgreSQL for data storage.",
+      "Implemented and optimized CRUD operations for managing customer data and providing analytics to the CRM dashboard.",
+      "Developed modules for warehouse management of EV parts and tracking vehicle sales.",
+      "Collaborated with the team to ensure robust integration between backend services and frontend dashboard.",
+      "Contributed to improving data consistency and performance in analytics and reporting features.",
     ],
   },
 ];
