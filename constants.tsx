@@ -150,7 +150,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     ],
   },
   {
-    id: "exp2",
+    id: "Tuzeng",
     role: "Java Developer",
     company: "Tuzen Technologies",
     period: "Nov 2020 - Jan 2022",
