@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SectionWrapper } from './SectionWrapper.js'; // Added .js
 import { Card } from './Card.js'; // Added .js
@@ -11,7 +10,7 @@ interface EducationProps {
 
 export const Education: React.FC<EducationProps> = ({ className }) => {
   return (
-    <SectionWrapper id="education" title="Education & Certifications" titleIcon={<AcademicCapIcon className="w-8 h-8" />} className={className}>
+    <SectionWrapper id="education" title="Education" titleIcon={<AcademicCapIcon className="w-8 h-8" />} className={className}>
       <div className="grid md:grid-cols-2 gap-8">
         {EDUCATION_DATA.map((item: EducationItem) => (
           <Card key={item.id}>

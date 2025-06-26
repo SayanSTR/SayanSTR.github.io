@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SocialLink, Skill, Project, ExperienceItem, EducationItem, NavLink } from './types.js'; // Added .js
 
@@ -71,6 +70,7 @@ export const NAV_LINKS: NavLink[] = [
   { href: "projects", label: "Projects" },
   { href: "experience", label: "Experience" },
   { href: "education", label: "Education" },
+  { href: "certificates", label: "Certificates" }, // Added Certificates
   { href: "contact", label: "Contact" },
 ];
 
@@ -171,14 +171,18 @@ export const EDUCATION_DATA: EducationItem[] = [
     institution: "Dr. B. C. Roy Engineering College",
     period: "2017 - 2020",
     description: "GeoTech Engineering, Data Analysis, MATLAB"
-  },
+  }
+];
+
+// New: Certificates & Courses Section
+export const CERTIFICATES_DATA = [
   {
-    id: "edu2",
-    degree: "Online Course/Certification (e.g., Fullstackopen)",
-    institution: "Course Provider (e.g., University of Helsinki)",
+    id: "cert1",
+    title: "Fullstackopen (Full Stack Web Development)",
+    provider: "University of Helsinki",
     period: "Year - Present/Year",
     description: "Currently learning full-stack web development, focusing on React, Node.js, etc."
-  },
+  }
 ];
 
 export const YOUR_NAME = "Sayan Ghosh";

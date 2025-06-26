@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SectionWrapper } from './SectionWrapper.js'; // Added .js
 import { Card } from './Card.js'; // Added .js
@@ -21,10 +20,10 @@ export const Experience: React.FC<ExperienceProps> = ({ className }) => {
         <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-slate-300 hidden md:block transform -translate-x-1/2"></div>
 
         {EXPERIENCE_DATA.map((item: ExperienceItem, index: number) => (
-          <div key={item.id} className={`md:flex items-start ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-8 md:mb-0`}>
-            {/* Connector Dot for larger screens */}
-            <div className={`hidden md:flex flex-col items-center mx-6 ${index % 2 === 0 ? 'order-2' : 'order-1'}`}>
-              <div className={`w-4 h-4 bg-purple-500 rounded-full ring-4 ${ringColorClass} z-10`}></div>
+          <div key={item.id} className={`md:flex items-start ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-8 md:mb-0 relative`}>
+            {/* Connector Dot for larger screens - now absolutely positioned near the center line */}
+            <div className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className={`w-4 h-4 bg-purple-500 rounded-full ring-4 ${ringColorClass}`}></div>
             </div>
 
              {/* Spacer div for alignment (no visible content) */}
